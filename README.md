@@ -14,7 +14,7 @@ ADMIN has access to create performances, stages, manage performance sessions.
 - POST,"/performances" - crete performance
 - GET,"/performances" - review performances
 - POST,"/performance-sessions" - crete performance session
-- ET,"/performance-sessions/available" - get info about available performance-sessions
+- GET,"/performance-sessions/available" - get info about available performance-sessions
 - PUT,"/performance-sessions/{id}" - chanche
 - DELETE,"/performance-sessions/{id}" - delete
 - GET,"/users/by-email" - review info about user
